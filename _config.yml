@@ -1,1 +1,14 @@
 theme: jekyll-theme-cayman
+
+collections:
+  slides:
+    output: true
+    permalink: /:collection/:path
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "slides"
+    values:
+      layout: "slides"
