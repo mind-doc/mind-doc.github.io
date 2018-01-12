@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="/assets/reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="/assets/reveal.js/css/theme/black.css">
+    <link rel="stylesheet" href="/assets/reveal.js/css/theme/{% if page.theme %}{{ page.theme }}{% else %}white{% endif %}.css" id="theme">
     <link rel="stylesheet" href="/assets/reveal.js/lib/css/zenburn.css">
   </head>
   <body>
